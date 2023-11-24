@@ -6,6 +6,7 @@ body{
        justify-content: center;
        min-height: 100vh;
        background-color: #1a759f;
+       user-select: none;
 }
 
 .calculator{
@@ -27,7 +28,7 @@ body{
                                outline: none;
                                background: #ecf0f3;
                                box-shadow: inset 8px 8px 8px #cbced1,
-                                           inset -8px -8px 8px #ffffff;
+                                           inset -8px -8px 20px #ffffff;
                                font-size: 40px;
                                border-radius: 8px;
                                padding-top: 10px;
@@ -43,6 +44,19 @@ body{
 }
 
 .btns .row button{
-                    width: 80px;
+                    width: 100px;
                     height: 40px;
+                    margin-top: 15px;
+                    margin-right: 5px;
+                    margin-left: 5px;
+                    margin-bottom: 10px;
+                    border: none;
+                    outline: none;
+                    -webkit-box-shadow: 9px 15px 20px -4px rgba(0,0,0,0.2);
+                    -moz-box-shadow: 9px 15px 20px -4px rgba(0,0,0,0.2);
+                    box-shadow: 9px 15px 20px -4px rgba(0,0,0,0.2);
+                    border-radius: 8px;
+                    font-size: 20px;
+                    cursor: pointer;
+                    user-select: none;
 }
